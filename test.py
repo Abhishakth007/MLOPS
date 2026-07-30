@@ -29,8 +29,9 @@ def prime_checker(n):
 
 if __name__ == "__main__":
     adder_result = adder(2,3,4,5)
-    prime_checker_result = prime_checker(22)
+    input_for_prime_checker = 22
+    prime_checker_result = prime_checker(input_for_prime_checker)
     print(f"Adder Result : {adder_result}")
-    print(f"Prime Checker : {prime_checker_result}")
+    print(f"Prime Checker Returned : {prime_checker_result} For {input_for_prime_checker}")
 
 
