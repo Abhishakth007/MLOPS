@@ -1,7 +1,0 @@
-stage:
-  data_ingestion:
-    cmd: python/data_ingestion.py
-    deps:
-      - /data_ingestion.py
-    outs:
-      - /Exports/raw.csv
